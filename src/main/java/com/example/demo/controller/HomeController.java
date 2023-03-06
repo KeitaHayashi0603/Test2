@@ -5,10 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HomeController {
-	
+
+	//試し
+
 	@RequestMapping("/")
 	public String index() {
-		
+
 		return "hello";
 	}
 
